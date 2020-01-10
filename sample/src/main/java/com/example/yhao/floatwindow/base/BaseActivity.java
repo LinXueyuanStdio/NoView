@@ -1,9 +1,10 @@
 package com.example.yhao.floatwindow.base;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.yhao.fixedfloatwindow.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class BaseActivity extends AppCompatActivity {
 

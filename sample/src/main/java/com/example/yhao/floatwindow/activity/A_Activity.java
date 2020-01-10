@@ -2,7 +2,6 @@ package com.example.yhao.floatwindow.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.BounceInterpolator;
@@ -13,6 +12,8 @@ import com.yhao.floatwindow.MoveType;
 import com.yhao.floatwindow.PermissionListener;
 import com.yhao.floatwindow.Screen;
 import com.yhao.floatwindow.ViewStateListener;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class A_Activity extends AppCompatActivity {
     private static final String TAG = "A_Activity";
